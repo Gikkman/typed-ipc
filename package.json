@@ -1,0 +1,60 @@
+{
+  "name": "typed-ipc",
+  "version": "0.1.0",
+  "description": "Typed IPC communication in Electron",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint --project ./ --format stylish",
+    "prepublish": "npm run build && npm run lint"
+
+  },
+  "files": [
+    "lib/"
+  ],
+  "types": "lib/index.d.ts",
+  "keywords": [
+    "electron",
+    "ipc",
+    "inter",
+    "process",
+    "communication",
+    "communicate",
+    "message",
+    "messages",
+    "send",
+    "receive",
+    "call",
+    "answer",
+    "reply",
+    "async",
+    "await",
+    "invoke",
+    "renderer",
+    "typescript",
+    "strict",
+    "type",
+    "typed",
+    "typesafe",
+    "request",
+    "response"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gikkman/typed-ipc.git"
+  },
+  "author": "Gikkman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Gikkman/typed-ipc/issues"
+  },
+  "homepage": "https://github.com/Gikkman/typed-ipc#readme",
+  "devDependencies": {
+    "electron": "^7.0.0",
+    "tslint": "^5.20.0",
+    "typescript": "^3.0.0"
+  },
+  "peerDependencies": {
+    "electron": "^7.0.0"
+  }
+}
