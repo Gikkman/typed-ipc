@@ -50,11 +50,11 @@
   },
   "homepage": "https://github.com/Gikkman/typed-ipc#readme",
   "devDependencies": {
-    "electron": "^7.0.0",
+    "electron": "^11.5.0",
     "tslint": "^5.20.0",
     "typescript": "^3.0.0"
   },
   "peerDependencies": {
-    "electron": "^7.0.0"
+    "electron": "^11.5.0"
   }
 }
